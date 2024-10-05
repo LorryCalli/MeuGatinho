@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Fatos sobre Gatos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h2>Fatos que você amará sobre esses seres felpudos:</h2>
+  <p>{{ fatoGato }}</p>
+  
+  <ion-button (click)="getFatoGato()">Gerar Novo Fato</ion-button> <!-- Botão para gerar novo fato -->
+  
+  <ion-button routerLink="/home">Voltar para Home</ion-button>
+  <ion-button routerLink="/sobre-mim">Sobre Mim</ion-button>
+</ion-content>
